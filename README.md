@@ -8,4 +8,4 @@ javascript:(function() {var h=document.getElementsByTagName('head')[0]; var sc=d
 
 Then go to any website and click the bookmarklet. If the website is approved by the JG, you will see the JG seal of approval in the top right corner of the website 🎉.
 
-Enjoy!# dc-jg-seal
+Enjoy!
