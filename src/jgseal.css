@@ -1,0 +1,97 @@
+.jgseal, .jgseal div {
+	box-sizing: border-box;
+}
+
+.jgseal {
+	z-index:9999;
+	width: 400px;
+	height: 400px;
+	border-radius: 100%;
+	border: solid 25px #AA001D;
+
+	background-color:#EEBD23;
+
+	position: fixed;
+	left: 100%;
+	top:50px;
+
+	margin-left:-450px;
+
+	transform: rotate(20deg);
+
+}
+.jgseal .innerBorder {
+	position: absolute;
+	height:100%;	
+	width:100%;
+	
+	border-radius: 100%;
+	border: solid 2px #000;
+	/*transform: scale(0.99);*/
+}
+
+
+.jgseal .image {
+	position: absolute;
+	top:0;
+	left:0;
+
+	overflow:hidden;
+	background-image: url(jg.gif);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: 50% -50%;
+	height:100%;	
+	width:100%;
+	
+	border-radius: 100%;
+	border: solid 4px #000;
+	transform: scale(0.8);
+}
+
+.jgseal .text_0 span {
+
+	display: block;
+	width:30px;
+	margin-left: -15px;
+	padding-top: 147px;
+	/*border: solid 1px #000;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+	transform-origin: 15px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.jgseal .crown {
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height: 100%;
+}
+
+.jgseal .chevron {
+	width:30px;
+	height:185px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-15px;
+	transform-origin: 15px 0;
+}
+
+.jgseal .triangle {
+	position: absolute;
+	top:100%;
+	height:30px;
+	width:30px;
+	transform: rotate(45deg);
+	background-color:#AA001D;
+	box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+}
